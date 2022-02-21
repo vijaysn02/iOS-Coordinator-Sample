@@ -1,5 +1,5 @@
 //
-//  MainCoordinator.swift
+//  LoginCoordinator.swift
 //  Coordinator Sample
 //
 //  Created by Sagaya Navis Vijay on 18/02/22.
@@ -9,7 +9,7 @@ import Foundation
 
 import UIKit
 
-//MARK: - Main Coordinator
+//MARK: - Login Coordinator
 class LoginCoordinator: Coordinator {
     
     var childCoordinators: [Coordinator] = []
@@ -29,7 +29,7 @@ class LoginCoordinator: Coordinator {
 }
 
 //MARK: - Conforming Main View Controller Protocol
-extension LoginCoordinator: MainViewControllerDelegate {
+extension LoginCoordinator: LoginViewControllerDelegate {
 
     func navigateToNextPage() {
        navigateToLoginPage()

@@ -21,7 +21,7 @@ class DashboardViewController: UIViewController {
         super.viewDidLoad()
         title = "Dashboard"
     }
-    
+
     @IBAction func goToDashboard(_ sender: Any) {
         self.delegate?.navigateToNextPage()
     }

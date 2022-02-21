@@ -7,13 +7,13 @@
 
 import UIKit
  
-protocol MainViewControllerDelegate: AnyObject {
+protocol LoginViewControllerDelegate: AnyObject {
     func navigateToNextPage()
 }
 
 class LoginViewController: UIViewController {
 
-    public weak var delegate: MainViewControllerDelegate?
+    public weak var delegate: LoginViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
